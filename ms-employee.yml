@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ms-employee
+  data:
+    mongodb:
+      database: employee_test
+      host: localhost
+      port: 8092
+server:
+  port: 8001
